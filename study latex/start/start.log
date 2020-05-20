@@ -1,12 +1,12 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.11)  16 MAY 2020 18:19
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.11)  20 MAY 2020 23:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"3 article"
-(./3 article.tex
+**start
+(./start.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06> (c:/texlive/2020/texmf-dist/tex/latex/ctex/ctexbook.cls (c:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+L3 programming layer <2020-03-06> (c:/texlive/2020/texmf-dist/tex/latex/ctex/ctexart.cls (c:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-03-06 L3 programming layer (loader) 
  (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
 File: l3backend-xdvipdfmx.def 2020-03-12 L3 backend support: xdvipdfmx
@@ -15,7 +15,7 @@ File: l3backend-xdvipdfmx.def 2020-03-12 L3 backend support: xdvipdfmx
 \g__pdf_backend_object_int=\count164
 \g__pdf_backend_annotation_int=\count165
 ))
-Document Class: ctexbook 2019/05/29 v2.4.16 Chinese adapter for class book (CTEX)
+Document Class: ctexart 2019/05/29 v2.4.16 Chinese adapter for class article (CTEX)
 (c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-03-06 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count166
@@ -43,20 +43,19 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \g__ctex_font_size_int=\count172
  (c:/texlive/2020/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2019/05/29 v2.4.16 Option configuration file (CTEX)
-) (c:/texlive/2020/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
-(c:/texlive/2020/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+) (c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(c:/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count173
-\c@chapter=\count174
-\c@section=\count175
-\c@subsection=\count176
-\c@subsubsection=\count177
-\c@paragraph=\count178
-\c@subparagraph=\count179
-\c@figure=\count180
-\c@table=\count181
+\c@section=\count174
+\c@subsection=\count175
+\c@subsubsection=\count176
+\c@paragraph=\count177
+\c@subparagraph=\count178
+\c@figure=\count179
+\c@table=\count180
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen135
@@ -67,17 +66,17 @@ Package: xeCJK 2020/02/18 v3.8.2 Typesetting CJK scripts with XeLaTeX
  (c:/texlive/2020/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2020-03-06 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen136
-\l__xtemplate_tmp_int=\count182
+\l__xtemplate_tmp_int=\count181
 \l__xtemplate_tmp_muskip=\muskip16
 \l__xtemplate_tmp_skip=\skip49
 )
-\l__xeCJK_tmp_int=\count183
+\l__xeCJK_tmp_int=\count182
 \l__xeCJK_tmp_box=\box47
 \l__xeCJK_tmp_dim=\dimen137
 \l__xeCJK_tmp_skip=\skip50
-\g__xeCJK_space_factor_int=\count184
-\l__xeCJK_begin_int=\count185
-\l__xeCJK_end_int=\count186
+\g__xeCJK_space_factor_int=\count183
+\l__xeCJK_begin_int=\count184
+\l__xeCJK_end_int=\count185
 \c__xeCJK_CJK_class_int=\XeTeXcharclass1
 \c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
 \c__xeCJK_FullRight_class_int=\XeTeXcharclass3
@@ -87,7 +86,7 @@ Package: xtemplate 2020-03-06 L3 Experimental prototype document functions
 \c__xeCJK_CM_class_int=\XeTeXcharclass7
 \c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
 \l__xeCJK_last_skip=\skip51
-\g__xeCJK_node_int=\count187
+\g__xeCJK_node_int=\count186
 \c__xeCJK_CJK_node_dim=\dimen138
 \c__xeCJK_CJK-space_node_dim=\dimen139
 \c__xeCJK_default_node_dim=\dimen140
@@ -97,10 +96,10 @@ Package: xtemplate 2020-03-06 L3 Experimental prototype document functions
 \l__xeCJK_ccglue_skip=\skip52
 \l__xeCJK_ecglue_skip=\skip53
 \l__xeCJK_punct_kern_skip=\skip54
-\l__xeCJK_last_penalty_int=\count188
+\l__xeCJK_last_penalty_int=\count187
 \l__xeCJK_last_bound_dim=\dimen144
 \l__xeCJK_last_kern_dim=\dimen145
-\l__xeCJK_widow_penalty_int=\count189
+\l__xeCJK_widow_penalty_int=\count188
 
 Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 (xtemplate)             argument(s) on line 2302.
@@ -124,26 +123,26 @@ Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 \l__xeCJK_margin_dim=\dimen162
 \l__xeCJK_minimum_bound_dim=\dimen163
 \l__xeCJK_kerning_margin_dim=\dimen164
-\g__xeCJK_family_int=\count190
-\l__xeCJK_fam_int=\count191
-\g__xeCJK_fam_allocation_int=\count192
-\l__xeCJK_verb_case_int=\count193
+\g__xeCJK_family_int=\count189
+\l__xeCJK_fam_int=\count190
+\g__xeCJK_fam_allocation_int=\count191
+\l__xeCJK_verb_case_int=\count192
 \l__xeCJK_verb_exspace_skip=\skip55
  (c:/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
  (c:/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count194
-\l__fontspec_language_int=\count195
-\l__fontspec_strnum_int=\count196
-\l__fontspec_tmp_int=\count197
-\l__fontspec_tmpa_int=\count198
-\l__fontspec_tmpb_int=\count199
-\l__fontspec_tmpc_int=\count266
-\l__fontspec_em_int=\count267
-\l__fontspec_emdef_int=\count268
-\l__fontspec_strong_int=\count269
-\l__fontspec_strongdef_int=\count270
+\l__fontspec_script_int=\count193
+\l__fontspec_language_int=\count194
+\l__fontspec_strnum_int=\count195
+\l__fontspec_tmp_int=\count196
+\l__fontspec_tmpa_int=\count197
+\l__fontspec_tmpb_int=\count198
+\l__fontspec_tmpc_int=\count199
+\l__fontspec_em_int=\count266
+\l__fontspec_emdef_int=\count267
+\l__fontspec_strong_int=\count268
+\l__fontspec_strongdef_int=\count269
 \l__fontspec_tmpa_dim=\dimen165
 \l__fontspec_tmpb_dim=\dimen166
 \l__fontspec_tmpc_dim=\dimen167
@@ -159,7 +158,7 @@ Package: xeCJKfntef 2020/02/18 v3.8.2 xeCJK font effect
 \UL@skip=\skip56
 \UL@hook=\toks15
 \UL@height=\dimen168
-\UL@pe=\count271
+\UL@pe=\count270
 \UL@pixel=\dimen169
 \ULC@box=\box50
 Package: ulem 2019/11/18
@@ -178,13 +177,13 @@ Package: ulem 2019/11/18
 \l__ctex_ziju_dim=\dimen173
  (c:/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2019/04/07 v2.7 Typesetting numbers with Chinese glyphs
-\l__zhnum_scale_int=\count272
+\l__zhnum_scale_int=\count271
  (c:/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2019/04/07 v2.7 Chinese numerals with UTF8 encoding
 ))
 \l__ctex_heading_skip=\skip60
- (c:/texlive/2020/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-book.def
-File: ctex-scheme-chinese-book.def 2019/05/29 v2.4.16 Chinese scheme for book (CTEX)
+ (c:/texlive/2020/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.def
+File: ctex-scheme-chinese-article.def 2019/05/29 v2.4.16 Chinese scheme for article (CTEX)
  (c:/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2019/05/29 v2.4.16 Caption with encoding UTF8 (CTEX)
 )) (c:/texlive/2020/texmf-dist/tex/latex/ctex/ctex-c5size.clo
@@ -225,148 +224,99 @@ Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
 
 ))) (c:/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2019/05/29 v2.4.16 Configuration file (CTEX)
-) (./3 article.aux)
-\openout1 = `"3 article.aux"'.
+)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
- ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 27.
+LaTeX Warning: Unused global option(s):
+    [UTF-8].
+
+No file start.aux.
+\openout1 = `start.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 3.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 27.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 27.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 27.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 27.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 27.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 27.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 27.
-LaTeX Font Info:    Redeclaring math accent \check on input line 27.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 27.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 27.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 27.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 27.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 3.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 3.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 3.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 3.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 3.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 3.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 3.
+LaTeX Font Info:    Redeclaring math accent \check on input line 3.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 3.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 3.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 3.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 3.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 27.
+(Font)              `operators' in the math version `normal' on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 27.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 3.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 27.
+(Font)              `operators' in the math version `bold' on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 27.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 27.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 27.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 27.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 27.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 27.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 27.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 27.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 27.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 27.
- (./3 article.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.53937> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
-)
-\tf@toc=\write3
-\openout3 = `"3 article.toc"'.
-
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 3.
  [1
 
-
-]
-LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10.53937> not available
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 30.
- [2
-
-]
-第一章
-
-Package fontspec Info: Could not resolve font "SimHei/BI" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Could not resolve font "SimHei/B" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Could not resolve font "SimHei/I" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
-(fontspec)             options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"SimHei/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-
-LaTeX Font Warning: Font shape `TU/SimHei(0)/b/n' undefined
-(Font)              using `TU/SimHei(0)/m/n' instead on input line 31.
-
-[3] [4
-
-]
-第二章
-[5] (./3 article.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+] (./start.aux) ) 
 Here is how much of TeX's memory you used:
- 7097 strings out of 479418
- 211286 string characters out of 5888105
- 500253 words of memory out of 5000000
- 24552 multiletter control sequences out of 15000+600000
- 533608 words of font info for 59 fonts, out of 8000000 for 9000
+ 6886 strings out of 479418
+ 204983 string characters out of 5888105
+ 488532 words of memory out of 5000000
+ 24370 multiletter control sequences out of 15000+600000
+ 532556 words of font info for 39 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 56i,4n,72p,484b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,4n,68p,341b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 3 article.pdf (5 pages).
+Output written on start.pdf (1 page).
